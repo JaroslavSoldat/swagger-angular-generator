@@ -6,7 +6,7 @@
  */
 
 import {Injectable} from '@angular/core';
-import {FormControl, FormGroup, Validators} from '|shared/forms';
+import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {FormArrayExtended} from '../../../common/formArrayExtended';
 import {FormMap} from '../../../common/formMap';
 import {StructuresService} from '../../../controllers/Structures';

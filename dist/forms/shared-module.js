@@ -7,7 +7,7 @@ function createSharedModule(config) {
     let content = '';
     content += `import {CommonModule} from '@angular/common';\n`;
     content += `import {NgModule} from '@angular/core';\n`;
-    content += `import {IczFormsModule} from '|shared/forms';\n`;
+    content += `import {IczFormsModule} from '@angular/forms';\n`;
     content += '\n';
     content += '@NgModule({\n';
     content += utils_1.indent('imports: [\n');

@@ -7,7 +7,7 @@
 
 import {CommonModule} from '@angular/common';
 import {NgModule} from '@angular/core';
-import {IczFormsModule} from '|shared/forms';
+import {IczFormsModule} from '@angular/forms';
 
 @NgModule({
   imports: [

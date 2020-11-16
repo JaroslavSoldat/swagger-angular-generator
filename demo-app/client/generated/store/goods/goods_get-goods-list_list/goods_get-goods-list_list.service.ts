@@ -6,7 +6,7 @@
  */
 
 import {Injectable} from '@angular/core';
-import {FormControl, FormGroup} from '|shared/forms';
+import {FormControl, FormGroup} from '@angular/forms';
 import {GoodsService} from '../../../controllers/Goods';
 
 @Injectable()

@@ -31,7 +31,7 @@ function getImports(name, constructor) {
         imports.push('Validators');
     let res = 'import {Injectable} from \'@angular/core\';\n';
     if (imports.length)
-        res += `import {${imports.join(', ')}} from '|shared/forms';\n`;
+        res += `import {${imports.join(', ')}} from '@angular/forms';\n`;
     if (constructor.match(/new FormArrayExtended\(/)) {
         res += `import {FormArrayExtended} from '../../../common/formArrayExtended';\n`;
     }
